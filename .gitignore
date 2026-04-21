@@ -1,0 +1,13 @@
+/node_modules/
+dist/
+build/
+/.idea/
+/.vscode/
+cache/
+
+*.env
+*.log
+.DS_Store
+*.iml
+*.cache
+*.tmp
