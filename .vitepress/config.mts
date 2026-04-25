@@ -2,7 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
-  title: "Documentations",
+  title: "Yuuki's Docs",
   description: "various documentations for what I am working on",
   lang: "en-US",
   head: [["link", { rel: "icon", href: "/favicon.ico" }]],
@@ -33,7 +33,23 @@ export default defineConfig({
         {
           text: "CDU-UET",
           link: "/cdu-uet/",
-          collapsed: false,
+        },
+        {
+          text: "Basic knowledge",
+          link: "/cdu-uet/basic/",
+          collapsed: true,
+          items: [],
+        },
+        {
+          text: "Cisco",
+          link: "/cdu-uet/cisco/",
+          collapsed: true,
+          items: [],
+        },
+        {
+          text: "Ruckus",
+          link: "/cdu-uet/ruckus/",
+          collapsed: true,
           items: [],
         },
       ],
@@ -51,4 +67,5 @@ export default defineConfig({
       copyright: "Copyright © 2026-present Yuuki"
     },
   },
+  lastUpdated: true,
 });
