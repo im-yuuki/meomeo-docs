@@ -1,2 +1,2 @@
 # meomeo-docs
-wtf :P
+various documentations for what I am working on 😛
