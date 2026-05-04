@@ -36,21 +36,47 @@ export default defineConfig({
         },
         {
           text: "Basic knowledge",
-          link: "/cdu-uet/basic/",
-          collapsed: true,
-          items: [],
+          collapsed: false,
+          items: [
+            {
+              text: "VLAN",
+              link: "/cdu-uet/basic/vlan.md",
+            },
+            {
+              text: "iperf3",
+              link: "/cdu-uet/basic/iperf3.md",
+            },
+            {
+              text: "nmap",
+              link: "/cdu-uet/basic/nmap.md",
+            },
+          ],
         },
         {
           text: "Cisco",
           link: "/cdu-uet/cisco/",
-          collapsed: true,
-          items: [],
+          collapsed: false,
+          items: [
+            {
+              text: "Catalyst 9300",
+              link: "/cdu-uet/cisco/catalyst-9300.md",
+            },
+          ],
         },
         {
           text: "Ruckus",
           link: "/cdu-uet/ruckus/",
-          collapsed: true,
-          items: [],
+          collapsed: false,
+          items: [
+            {
+              text: "AP R720",
+              link: "/cdu-uet/ruckus/r720.md",
+            },
+            {
+              text: "ZoneDirector ZD1200",
+              link: "/cdu-uet/ruckus/zd1200.md",
+            },
+          ],
         },
       ],
     },
